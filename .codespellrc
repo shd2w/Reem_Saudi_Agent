@@ -1,0 +1,6 @@
+[codespell]
+# Codespell configuration for automated typo detection
+skip = .git,*.pyc,__pycache__,*.egg-info,node_modules,venv,.env,*.log,*.json,redis_data,*.md
+ignore-words-list = followup,AfterAll
+count =
+quiet-level = 2

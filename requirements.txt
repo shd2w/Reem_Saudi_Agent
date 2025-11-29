@@ -1,0 +1,55 @@
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# HTTP Client
+httpx>=0.25.0
+
+# Redis & Session Management (Async)
+redis[hiredis]>=5.0.0
+
+# Logging
+loguru>=0.7.0
+
+# Security
+python-multipart>=0.0.6
+
+# TTS (Text-to-Speech)
+# ElevenLabs client uses httpx (already included)
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-httpx>=0.26.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+isort>=5.12.0
+
+# Production Server
+gunicorn>=21.2.0
+
+# Optional: Database (if using PostgreSQL for rewards)
+# asyncpg>=0.29.0
+# sqlalchemy[asyncio]>=2.0.0
+
+# Optional: Monitoring
+# sentry-sdk[fastapi]>=1.40.0
+# prometheus-client>=0.19.0
+
+# LLM Integration
+openai>=1.0.0
+
+# LangGraph (for booking agent state machine)
+langgraph>=0.0.20
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+
+# LangGraph Redis Checkpointer
+langgraph-checkpoint-redis>=0.0.1
